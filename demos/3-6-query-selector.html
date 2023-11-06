@@ -13,6 +13,25 @@
     </main>
     <script>
       "use strict";
+      // doesnt work
+      const buttons = document.querySelectorAll("button");
+      for (const button of buttons) {
+        if (button.id == "googleButton") {
+          button.onclick = function () {
+            window.open("https://www.google.com");
+          };
+        }
+        if (button.id == "w3schoolsButton") {
+          button.onclick = function () {
+            window.open("https://www.w3Schools.com");
+          };
+        }
+        if (button.id == "imagesButton") {
+          button.onclick = function () {
+            window.open("image.html");
+          };
+        }
+      }
     </script>
   </body>
 </html>
