@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="pico.classless.css" />
+  </head>
+  <body>
+    <button type="button" id="displayGoogle">Google</button>
+    <button type="button" id="displayW3Schools">W3 Schools</button>
+    <button type="button" id="displayImagesPage">Images</button>
+
+    <script>
+      let displayGoogle = document.getElementById("displayGoogle");
+      let displayW3Schools = document.getElementById("displayW3Schools");
+      let displayImagesPage = document.getElementById("displayImagesPage");
+
+      displayGoogle.onclick = function () {
+        window.open("https://www.google.com");
+      };
+
+      displayW3Schools.onclick = function () {
+        window.open("https://www.w3schools.com");
+      };
+
+      displayImagesPage.onclick = function () {
+        window.open("images.html");
+      };
+    </script>
+  </body>
+</html>
