@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images</title>
+  </head>
+  <body>
+    <div>
+      <img src="https://www.placehold.co/200x400" />
+      <p>describe image above</p>
+    </div>
+
+    <script>
+      "use strict";
+
+      function styleMe() {
+        const paragraphs = document.querySelectorAll("p");
+        const images = document.querySelectorAll("img");
+        for (const paragraph of paragraphs) {
+          paragraph.style.border = "solid 2px black";
+        }
+        for (const image of images) {
+          image.style.borderRadius = "25px";
+        }
+      }
+      window.onload = function () {
+        styleMe();
+      };
+    </script>
+  </body>
+</html>
