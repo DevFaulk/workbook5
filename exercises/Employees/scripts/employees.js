@@ -6,13 +6,14 @@ let employees = [
     yearsAtCompany: 4,
     email: "karinachambers@ziore.com",
     wfhAddress: "640 Boynton Place, Faxon, Kentucky, 42071",
-    skillSet: "Velit commodo voluptate id est. Fugiat magna enim quis exercitation duis fugiat non nisi consequat.",
+    skillSet:
+      "Velit commodo voluptate id est. Fugiat magna enim quis exercitation duis fugiat non nisi consequat.",
     projectsAssignedTo: [
       {
         projectId: 112,
-        name: "Cupidatat aute"
-      }
-    ]
+        name: "Cupidatat aute",
+      },
+    ],
   },
   {
     id: "23810",
@@ -25,9 +26,9 @@ let employees = [
     projectsAssignedTo: [
       {
         projectId: 124,
-        name: "Amet do deserunttate aliqua"
-      }
-    ]
+        name: "Amet do deserunttate aliqua",
+      },
+    ],
   },
   {
     id: "52797",
@@ -40,13 +41,13 @@ let employees = [
     projectsAssignedTo: [
       {
         projectId: 131,
-        name: "Ut minim anim"
+        name: "Ut minim anim",
       },
       {
         projectId: 147,
-        name: "Velit Lorem reprehenderit"
-      }
-    ]
+        name: "Velit Lorem reprehenderit",
+      },
+    ],
   },
   {
     id: "62847",
@@ -59,17 +60,17 @@ let employees = [
     projectsAssignedTo: [
       {
         projectId: 131,
-        name: "Ut minim anim"
+        name: "Ut minim anim",
       },
       {
         projectId: 133,
-        name: "Est minim labore"
+        name: "Est minim labore",
       },
       {
         projectId: 152,
-        name: "Reprehenderit officia"
-      }
-    ]
+        name: "Reprehenderit officia",
+      },
+    ],
   },
   {
     id: "16642",
@@ -82,17 +83,17 @@ let employees = [
     projectsAssignedTo: [
       {
         projectId: 131,
-        name: "Ut minim anim"
+        name: "Ut minim anim",
       },
       {
         projectId: 123,
-        name: "Reprehenderit reprehenderit"
+        name: "Reprehenderit reprehenderit",
       },
       {
         projectId: 105,
-        name: "Pariatur eiusmod"
-      }
-    ]
+        name: "Pariatur eiusmod",
+      },
+    ],
   },
   {
     id: "32775",
@@ -105,17 +106,17 @@ let employees = [
     projectsAssignedTo: [
       {
         projectId: 134,
-        name: "Dolore exercitation veniam"
+        name: "Dolore exercitation veniam",
       },
       {
         projectId: 131,
-        name: "Ut minim anim"
+        name: "Ut minim anim",
       },
       {
         projectId: 107,
-        name: "Ea sint irure do excepteur"
-      }
-    ]
+        name: "Ea sint irure do excepteur",
+      },
+    ],
   },
   {
     id: "76394",
@@ -128,17 +129,17 @@ let employees = [
     projectsAssignedTo: [
       {
         projectId: 131,
-        name: "Ut minim anim"
+        name: "Ut minim anim",
       },
       {
         projectId: 132,
-        name: "Fugiat amet do cillum do"
+        name: "Fugiat amet do cillum do",
       },
       {
         projectId: 142,
-        name: "Sunt consequat incididunt"
-      }
-    ]
+        name: "Sunt consequat incididunt",
+      },
+    ],
   },
   {
     id: "58889",
@@ -151,9 +152,9 @@ let employees = [
     projectsAssignedTo: [
       {
         projectId: 113,
-        name: "Magna aute sint"
-      }
-    ]
+        name: "Magna aute sint",
+      },
+    ],
   },
   {
     id: "56701",
@@ -162,17 +163,18 @@ let employees = [
     yearsAtCompany: 6,
     email: "benjaminferrell@ziore.com",
     wfhAddress: "929 Tehama Street, Belmont, Maine, 04952",
-    skillSet: "Consequat laborum consectetur velit velit laboris eu tempor laborum elit occaecat irure.",
+    skillSet:
+      "Consequat laborum consectetur velit velit laboris eu tempor laborum elit occaecat irure.",
     projectsAssignedTo: [
       {
         projectId: 101,
-        name: "Commodo exercitation"
+        name: "Commodo exercitation",
       },
       {
         projectId: 131,
-        name: "Mollit magna ad culpa"
-      }
-    ]
+        name: "Mollit magna ad culpa",
+      },
+    ],
   },
   {
     id: "80897",
@@ -185,9 +187,9 @@ let employees = [
     projectsAssignedTo: [
       {
         projectId: 131,
-        name: "Ut minim anim"
-      }
-    ]
+        name: "Ut minim anim",
+      },
+    ],
   },
   {
     id: "49534",
@@ -200,13 +202,13 @@ let employees = [
     projectsAssignedTo: [
       {
         projectId: 150,
-        name: "Adipisicing ea"
+        name: "Adipisicing ea",
       },
       {
         projectId: 123,
-        name: "Reprehenderit reprehenderit"
-      }
-    ]
+        name: "Reprehenderit reprehenderit",
+      },
+    ],
   },
   {
     id: "33459",
@@ -219,9 +221,9 @@ let employees = [
     projectsAssignedTo: [
       {
         projectId: 144,
-        name: "Commodo anim occaecat"
-      }
-    ]
+        name: "Commodo anim occaecat",
+      },
+    ],
   },
   {
     id: "72054",
@@ -234,16 +236,72 @@ let employees = [
     projectsAssignedTo: [
       {
         projectId: 107,
-        name: "Ea sint irure do excepteur"
+        name: "Ea sint irure do excepteur",
       },
       {
         projectId: 112,
-        name: "Consequat non fugiat"
+        name: "Consequat non fugiat",
       },
       {
         projectId: 113,
-        name: "Magna aute sint"
-      }
-    ]
-  }
+        name: "Magna aute sint",
+      },
+    ],
+  },
 ];
+
+const employeeSelect = document.querySelector("#employeeSelect");
+const table = document.querySelector("#employeeTable");
+const tableBody = document.querySelector("#employeeTableBody");
+const selectOption = document.querySelector("#selectOption");
+
+function displayEmployees() {
+  for (const employee of employees) {
+    let option = new Option(employee.name);
+    option.value = employee.id;
+    employeeSelect.appendChild(option);
+  }
+}
+
+function displayEmployeesList() {
+  // tableBody.innerHTML = ""
+  const employeeRow = document.querySelector("#employeeRow");
+  if (employeeRow) {
+    employeeTableBody.removeChild(employeeRow);
+  }
+  for (const employee of employees) {
+    if (employee.id == employeeSelect.value) {
+      let emplName = employee.name;
+      let emplTitle = employee.jobTitle;
+      let emplServed = employee.yearsAtCompany;
+      let emplEmail = employee.email;
+      let emplAddress = employee.wfhAddress;
+      let emplSkills = employee.skillSet;
+
+      let row = tableBody.insertRow();
+      row.id = "employeeRow";
+      let cell1 = row.insertCell(0);
+      cell1.innerText = emplName;
+      let cell2 = row.insertCell(1);
+      cell2.innerText = emplTitle;
+      let cell3 = row.insertCell(2);
+      cell3.innerText = emplServed;
+      let cell4 = row.insertCell(3);
+      cell4.innerText = emplEmail;
+      let cell5 = row.insertCell(4);
+      cell5.innerText = emplAddress;
+      let cell6 = row.insertCell(5);
+      cell6.innerText = emplSkills;
+      for (const employeeProject of employee.projectsAssignedTo) {
+        let cell7 = row.insertCell(6);
+        cell7.innerText = employeeProject.name;
+      }
+    } else if (employeeSelect.value == "select") {
+      selectOption.innerText = "Select an employee...";
+    }
+  }
+}
+
+window.onload = displayEmployees;
+
+employeeSelect.onchange = displayEmployeesList;
