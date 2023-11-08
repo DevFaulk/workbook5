@@ -4,6 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lottery Tickets</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border-block: solid 2px black;
+        font-size: 2rem;
+      }
+      th:first-child,
+      td:first-child {
+        border-inline-start: solid 2px black;
+      }
+
+      td:last-child,
+      th:last-child {
+        border-inline-end: solid 2px black;
+      }
+
+      th:nth-child(2),
+      td:nth-child(2) {
+        border-inline: solid 2px black;
+      }
+
+      th {
+        padding-inline: 1.5rem;
+      }
+    </style>
   </head>
   <body>
     <header><h1>Winning Lottery Tickets</h1></header>

@@ -14,7 +14,21 @@ let winningTickets = [
   { tixNum: "8751426", expires: "2020-09-15", prize: 100000 },
 ];
 
+const winningTicketsTable = document.querySelector("#winningTicketsTable");
+const winningTicketsTableBody = document.querySelector(
+  "#winningTicketsTableBody"
+);
 
-
+function loadWinningTicketsTable() {
+  for (const winningTicket of winningTickets) {
+    let row = winningTicketsTableBody.insertRow(-1);
+    let cell1 = row.insertCell(0);
+    cell1.innerText = winningTicket.tixNum;
+    let cell2 = row.insertCell(1);
+    cell2.innerText = winningTicket.prize;
+    let cell3 = row.insertCell(2);
+    cell3.innerText = winningTicket.expires;
+  }
+}
 
 window.onload = loadWinningTicketsTable();
