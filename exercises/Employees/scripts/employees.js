@@ -255,21 +255,24 @@ const table = document.querySelector("#employeeTable");
 const tableBody = document.querySelector("#employeeTableBody");
 const selectOption = document.querySelector("#selectOption");
 
-function displayEmployees() {
-  for (const employee of employees) {
+const employeesSort = employees;
+function displayEmployeesList() {
+  for (const employee of employeesSort) {
     let option = new Option(employee.name);
     option.value = employee.id;
     employeeSelect.appendChild(option);
   }
 }
 
-function displayEmployeesList() {
+function displayEmployeesTable() {
   // tableBody.innerHTML = ""
   const employeeRow = document.querySelector("#employeeRow");
   if (employeeRow) {
     employeeTableBody.removeChild(employeeRow);
+  } else if (employeeSelect != selectOption) {
+    employeeSelect.removeChild(selectOption);
   }
-  for (const employee of employees) {
+  for (const employee of employeesSort) {
     if (employee.id == employeeSelect.value) {
       let emplName = employee.name;
       let emplTitle = employee.jobTitle;
@@ -302,6 +305,6 @@ function displayEmployeesList() {
   }
 }
 
-window.onload = displayEmployees;
+window.onload = displayEmployeesList;
 
-employeeSelect.onchange = displayEmployeesList;
+employeeSelect.onchange = displayEmployeesTable;
