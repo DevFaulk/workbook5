@@ -56,3 +56,16 @@ let courses = [
 // } else {
 //   console.log(`Why you looking for something that doesn't exist`);
 // }
+
+// find titles of courses that cost less than $50 if they exist
+for (const course of courses) {
+  var desiredCourse = course.Fee < 50;
+}
+// Find the course within courses that has this parameter and return all of them into the variable "course"
+const course = courses.find((course) => course.Fee == desiredCourse);
+
+if (course) {
+  console.log(`Here's all your cheap courses ${course.Title}`);
+} else {
+  console.log(`Nope you're gonna have to pay those premiums big dawg`);
+}
