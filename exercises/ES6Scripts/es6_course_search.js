@@ -58,11 +58,9 @@ let courses = [
 // }
 
 // find titles of courses that cost less than $50 if they exist
-for (const course of courses) {
-  var desiredCourse = course.Fee < 50;
-}
-// Find the course within courses that has this parameter and return all of them into the variable "course"
-const course = courses.find((course) => course.Fee == desiredCourse);
+// this just finds one course
+// Find the course within courses that has meets this parameter and return and store those courses into the variable "course"
+const course = courses.find((course) => course.Fee <= 50);
 
 if (course) {
   console.log(`Here's all your cheap courses ${course.Title}`);
